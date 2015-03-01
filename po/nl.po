@@ -1,16 +1,16 @@
-# Dutch translations for flex.
-# Copyright (C) 2012 The Flex Project (msgids)
+# Dutch translations for the fast parser Flex.
+# Copyright (C) 2014 The Flex Project (msgids)
 # This file is distributed under the same license as the flex package.
 #
 # Beim schwarzen Schaf...
 #
-# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2006, 2007, 2008, 2012.
+# Benno Schulenberg <benno@vertaalt.nl>, 2005, 2006, 2007, 2008, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: flex-2.5.36\n"
+"Project-Id-Version: flex-2.5.38\n"
 "Report-Msgid-Bugs-To: flex-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-02-11 16:15-0500\n"
-"PO-Revision-Date: 2012-08-04 21:42+0200\n"
+"POT-Creation-Date: 2014-03-26 15:00-0400\n"
+"PO-Revision-Date: 2014-02-13 22:25+0100\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "Language: nl\n"
@@ -48,7 +48,7 @@ msgstr "gevaarlijke nakomende context"
 #: dfa.c:166
 #, c-format
 msgid " associated rule line numbers:"
-msgstr " regelnummers van de betrokken regels:"
+msgstr " regelnummers van de betrokken voorschriften:"
 
 #: dfa.c:202
 #, c-format
@@ -179,23 +179,24 @@ msgstr "Kan yynultrans_tbl niet schrijven"
 
 #: main.c:191
 msgid "rule cannot be matched"
-msgstr "regel geeft geen overeenkomsten"
+msgstr "voorschrift geeft geen overeenkomsten"
 
 #: main.c:196
 msgid "-s option given but default rule can be matched"
-msgstr "optie -s gegeven, maar de standaardregel geeft overeenkomsten"
+msgstr ""
+"optie '-s' is gegeven, maar het standaardvoorschrift geeft overeenkomsten"
 
 #: main.c:236
 msgid "Can't use -+ with -l option"
-msgstr "Optie -+ gaat niet samen met -l"
+msgstr "Optie '-+' gaat niet samen met '-l'"
 
 #: main.c:239
 msgid "Can't use -f or -F with -l option"
-msgstr "Optie -f of -F gaat niet samen met -l"
+msgstr "Optie '-f' of '-F' gaat niet samen met '-l'"
 
 #: main.c:243
 msgid "Can't use --reentrant or --bison-bridge with -l option"
-msgstr "Optie --reentrant of --bison-bridge gaat niet samen met -l"
+msgstr "Optie '--reentrant' of '--bison-bridge' gaat niet samen met '-l'"
 
 #: main.c:275
 msgid "-Cf/-CF and -Cm don't make sense together"
@@ -215,16 +216,16 @@ msgstr "Opties -Cf en -CF sluiten elkaar uit"
 
 #: main.c:291
 msgid "Can't use -+ with -CF option"
-msgstr "Optie -+ gaat niet samen met -CF"
+msgstr "Optie '-+' gaat niet samen met '-CF'"
 
 #: main.c:294
 #, c-format
 msgid "%array incompatible with -+ option"
-msgstr "Optie -+ gaat niet samen met %array"
+msgstr "Optie '-+' gaat niet samen met %array"
 
 #: main.c:299
 msgid "Options -+ and --reentrant are mutually exclusive."
-msgstr "Opties -+ en --reentrant sluiten elkaar uit."
+msgstr "Opties '-+' en '--reentrant' sluiten elkaar uit."
 
 #: main.c:302
 msgid "bison bridge not supported for the C++ scanner."
@@ -326,7 +327,7 @@ msgstr "  %d/%d DFA-toestanden (%d woorden)\n"
 #: main.c:822
 #, c-format
 msgid "  %d rules\n"
-msgstr "  %d regels\n"
+msgstr "  %d voorschriften\n"
 
 #: main.c:827
 #, c-format
@@ -472,7 +473,7 @@ msgstr "kon terugstapbestand %s niet aanmaken"
 #, c-format
 msgid "-l AT&T lex compatibility option entails a large performance penalty\n"
 msgstr ""
-"de AT&T-lexcompatibiliteitsoptie -l betekent een grote "
+"de AT&T-lexcompatibiliteitsoptie '-l' betekent een grote "
 "prestatievermindering\n"
 
 #: main.c:1522
@@ -489,12 +490,12 @@ msgid ""
 "newline characters\n"
 msgstr ""
 "de %%optie yylineno betekent een prestatievermindering, maar ALLEEN voor "
-"regels die met het regeleindeteken overeen kunnen komen\n"
+"voorschriften die met het regeleindeteken overeen kunnen komen\n"
 
 #: main.c:1535
 #, c-format
 msgid "-I (interactive) entails a minor performance penalty\n"
-msgstr "optie -I (interactief) betekent een kleine prestatievermindering\n"
+msgstr "optie '-I' (interactief) betekent een kleine prestatievermindering\n"
 
 #: main.c:1540
 #, c-format
@@ -509,7 +510,9 @@ msgstr "REJECT betekent een grote prestatievermindering\n"
 #: main.c:1551
 #, c-format
 msgid "Variable trailing context rules entail a large performance penalty\n"
-msgstr "Variabele nakomende context betekent een grote prestatievermindering\n"
+msgstr ""
+"Voorschriften met variabele nakomende context betekenen een grote "
+"prestatievermindering\n"
 
 #: main.c:1563
 msgid "REJECT cannot be used with -f or -F"
@@ -522,7 +525,9 @@ msgstr "%optie yylineno gaat niet samen met REJECT"
 
 #: main.c:1569
 msgid "variable trailing context rules cannot be used with -f or -F"
-msgstr "regels met variabele nakomende context gaan niet samen met -f of -F"
+msgstr ""
+"voorschriften met variabele nakomende context gaan niet samen met '-f' of '-"
+"F'"
 
 #: main.c:1692
 #, c-format
@@ -532,7 +537,7 @@ msgstr "%optie yyclass heeft alleen betekenis voor C++-scanners"
 #: main.c:1799
 #, c-format
 msgid "Usage: %s [OPTIONS] [FILE]...\n"
-msgstr "Gebruik:  %s [OPTIE]... [BESTAND]...\n"
+msgstr "Gebruik:  %s [OPTIE...] [BESTAND...]\n"
 
 #: main.c:1802
 #, c-format
@@ -618,7 +623,7 @@ msgstr ""
 "  -d, --debug         debugmodus in scanner aanzetten\n"
 "  -b, --backup        terugstap-informatie naar %s schrijven\n"
 "  -p, --perf-report   prestatierapport naar standaardfoutuitvoer schrijven\n"
-"  -s, --nodefault     standaardregel om onherkende tekst te ECHO-en "
+"  -s, --nodefault     standaardvoorschrift dat onherkende tekst ECHO-t "
 "uitzetten\n"
 "  -T, --trace         %s uitvoeren in tracemodus\n"
 "  -w, --nowarn        geen waarschuwingen geven\n"
@@ -687,7 +692,7 @@ msgstr "onjuist teken '%s' in check_char()"
 #: misc.c:235
 #, c-format
 msgid "scanner requires -8 flag to use the character %s"
-msgstr "scanner heeft de optie -8 nodig om teken %s te kunnen gebruiken"
+msgstr "scanner heeft de optie '-8' nodig om teken %s te kunnen gebruiken"
 
 #: misc.c:268
 msgid "dynamic memory failure in copy_string()"
@@ -696,7 +701,7 @@ msgstr "dynamische geheugenfout in copy_string()"
 #: misc.c:367
 #, c-format
 msgid "%s: fatal internal error, %s\n"
-msgstr "%s: *fatale interne fout*, %s\n"
+msgstr "%s: **fatale interne programmafout**, %s\n"
 
 #: misc.c:803
 msgid "attempt to increase array size failed"
@@ -738,7 +743,7 @@ msgstr "lege machine in dupmachine()"
 #: nfa.c:240
 #, c-format
 msgid "Variable trailing context rule at line %d\n"
-msgstr "Regel met variabele nakomende context op regel %d\n"
+msgstr "Voorschrift met variabele nakomende context op regel %d\n"
 
 #: nfa.c:364
 msgid "bad state type in mark_beginning_as_normal()"
@@ -747,7 +752,7 @@ msgstr "onjuist toestandstype in mark_beginning_as_normal()"
 #: nfa.c:609
 #, c-format
 msgid "input rules are too complicated (>= %d NFA states)"
-msgstr "invoerregels zijn te ingewikkeld (>= %d NFA-toestanden)"
+msgstr "invoervoorschriften zijn te ingewikkeld (>= %d NFA-toestanden)"
 
 #: nfa.c:688
 msgid "found too many transitions in mkxtion()"
@@ -756,7 +761,7 @@ msgstr "te veel transities gevonden in mkxtion()"
 #: nfa.c:714
 #, c-format
 msgid "too many rules (> %d)!"
-msgstr "te veel regels (> %d)!"
+msgstr "te veel voorschriften (> %d)!"
 
 #: parse.y:159
 msgid "unknown error processing section 1"
@@ -768,7 +773,7 @@ msgstr "onjuiste lijst van startvoorwaarden"
 
 #: parse.y:315
 msgid "unrecognized rule"
-msgstr "onbekende regel"
+msgstr "onbekend voorschrift"
 
 #: parse.y:434 parse.y:447 parse.y:516
 msgid "trailing context used twice"
@@ -893,7 +898,7 @@ msgstr "kan %s niet openen"
 #: scanopt.c:291
 #, c-format
 msgid "Usage: %s [OPTIONS]...\n"
-msgstr "Gebruik:  %s [OPTIE]...\n"
+msgstr "Gebruik:  %s [OPTIE...]\n"
 
 #: scanopt.c:564
 #, c-format

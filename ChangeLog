@@ -1,3 +1,141 @@
+2014-02-16  Translation Project <coordinator@translationproject.org>
+
+	* po/ru.po: update ru translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated da translation in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/da.po: update da translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated es translation in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/es.po: update es translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated ko translation in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/ko.po: update ko translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated ro translation in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/ro.po: update ro translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated ru translation in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/ru.po: update ru translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated sv translation in news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/sv.po: update sv translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated tr translation in news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/tr.po: update tr translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated zh_CN in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/zh_CN.po: update zh_CN translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS, po/LINGUAS, po/zh_TW.po, po/zh_tw.po: rename zh_tw
+	translation to its proper zh_TW name
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* NEWS: mention updated nl, vi translations in release news
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/vi.po: update vi translation from the translation project
+
+2014-02-14  Translation Project <coordinator@translationproject.org>
+
+	* po/nl.po: update nl translation from the translation project
+
+2014-02-14  Will Estes <westes575@gmail.com>
+
+	* TODO: remove some unneeded entries from the todo list
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* doc/Makefile.am: list more generated files in CLEANFILES
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* doc/flex.xml: remove unmaintained xml documentation
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* configure.ac: bump AM_GNU_GETTEXT_VERSION to 0.18.1
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* README: list new location of flex git repo
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* po/.gitignore: git ignore generated files from english quoting
+	variant translations
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* po/LINGUAS: name english quoting variants correctly
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* Makefile.am, configure.ac, tools/Makefile.am: removed tools/
+	subdirectory from distribution Since it is not possible to rebuild the ChangeLog file without being
+	in a git working directory of flex, distributing the tools directory
+	is misleading. In particular, git2cl will always fail.
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* po/LINGUAS: removed unneeded blank line from translation list
+
+2014-02-13  Will Estes <westes575@gmail.com>
+
+	* po/LINGUAS: added en quoting variants to translation list
+
+2014-02-11  Will Estes <westes575@gmail.com>
+
+	* configure.ac: use gnu automake option instead of gnits option
+
+2014-02-11  Will Estes <westes575@gmail.com>
+
+	* README-alpha: remove README_alpha file since it is no longer
+	needed
+
 2014-02-10  Will Estes <westes575@gmail.com>
 
 	* configure.ac: increment version to 2.5.38

@@ -24,20 +24,20 @@
 
 # autoconf requirements and initialization
 
-AC_INIT([the fast lexical analyser generator], [2.5.38],
+AC_INIT([the fast lexical analyser generator], [2.5.39],
 [flex-help@lists.sourceforge.net], [flex])
 SHARED_VERSION_INFO="2:0:0"
 AC_SUBST(SHARED_VERSION_INFO)
 
 AC_CONFIG_SRCDIR([scan.l])
-AM_INIT_AUTOMAKE([gnits dist-bzip2 dist-xz 1.10])
+AM_INIT_AUTOMAKE([gnu check-news std-options dist-bzip2 dist-xz 1.10])
 AC_CONFIG_HEADER([config.h:conf.in])
 AC_CONFIG_LIBOBJ_DIR([lib])
 
 # checks for programs
 
 AM_GNU_GETTEXT([external])
-AM_GNU_GETTEXT_VERSION(0.18)
+AM_GNU_GETTEXT_VERSION([0.18.1])
 AC_PROG_YACC
 AM_PROG_LEX
 AC_PROG_CC
@@ -118,7 +118,6 @@ examples/fastwc/Makefile
 examples/manual/Makefile
 lib/Makefile
 po/Makefile.in
-tools/Makefile
 tests/Makefile
 tests/TEMPLATE/Makefile
 tests/test-array-nr/Makefile

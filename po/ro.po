@@ -1,12 +1,12 @@
 # Mesajele în limba românã pentru pachetul flex.
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2003 The Flex Project
 # Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: flex 2.5.31\n"
 "Report-Msgid-Bugs-To: flex-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-02-11 16:15-0500\n"
+"POT-Creation-Date: 2014-03-26 15:00-0400\n"
 "PO-Revision-Date: 2003-11-22 11:07+0200\n"
 "Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
 "Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"

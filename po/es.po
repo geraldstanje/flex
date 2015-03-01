@@ -1,17 +1,13 @@
 # Mensajes en español para GNU flex.
-# Copyright (C) 1997 Free Software Foundation, Inc.
+# Copyright (C) 2002 The Flex Project
+#
 # Nicolás García-Pedrajas <ngarcia-pedrajas@acm.org>, 1997.
-# ## 23 de septiembre de 1996,
-# ## Finaliza la tradución y la dejo para revisión
-# ## No me machaquéis mucho, es la primera que hago.
-#
 # Gracias a Nicolás Fernández García que me ha sugerido algunas ideas.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: GNU flex 2.5.8\n"
 "Report-Msgid-Bugs-To: flex-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2014-02-11 16:15-0500\n"
+"POT-Creation-Date: 2014-03-26 15:00-0400\n"
 "PO-Revision-Date: 2003-01-02 12:06+0100\n"
 "Last-Translator: Nicolás García-Pedrajas <ngarcia-pedrajas@acm.org>\n"
 "Language-Team: Spanish <es@li.org>\n"

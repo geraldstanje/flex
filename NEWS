@@ -3,6 +3,14 @@ changes between releases of flex.
 
 See the file COPYING for copying conditions.
 
+* version 2.5.38
+
+** internationalization
+
+*** add sr translation from the translation project
+
+*** update pt_BR translation from the translation project
+
 * version 2.5.37 released 2012-08-03
 
 ** Import flex into git. See
